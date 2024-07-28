@@ -1,3 +1,5 @@
+# Given an array of strings strs, group all anagrams together into sublists. You may return the output in any order.
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         # create a hashmap where each key maps to a list 
