@@ -5,7 +5,7 @@ class Solution:
         # create a hashmap where each key maps to a list 
         # key is the count of individual chars in the string
         #   {
-        #       key: []
+        #       [0, 0, 0, 1, 0, 2, 0, ...]: []
         #   }
 
         res = defaultdict(list)
