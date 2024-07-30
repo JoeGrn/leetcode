@@ -1,3 +1,5 @@
+# Given an integer array nums, return an array output where output[i] is the product of all the elements of nums except nums[i].
+
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         # initialise set for cols rows and squares which need to be checked for valid sudoku
